@@ -1,0 +1,32 @@
+PODS:
+  - AwaitKit (5.1.0):
+    - PromiseKit (~> 6)
+  - Bugsnag (5.23.0)
+  - PromiseKit (6.12.0):
+    - PromiseKit/CorePromise (= 6.12.0)
+    - PromiseKit/Foundation (= 6.12.0)
+    - PromiseKit/UIKit (= 6.12.0)
+  - PromiseKit/CorePromise (6.12.0)
+  - PromiseKit/Foundation (6.12.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.12.0):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - AwaitKit (~> 5.1.0)
+  - Bugsnag
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AwaitKit
+    - Bugsnag
+    - PromiseKit
+
+SPEC CHECKSUMS:
+  AwaitKit: a8a3d8982097ee09ac75f5c5d3952fbcc2f26f1c
+  Bugsnag: 1f33ee5b55bc4b131a30e0fe6db714da9c6609f6
+  PromiseKit: c06835ba442ce5454ce3cdde470232804a6e4ff8
+
+PODFILE CHECKSUM: 013a8811b25b40200d4e9148db012270d7bc864a
+
+COCOAPODS: 1.7.1
